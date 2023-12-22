@@ -8,7 +8,7 @@
 
 /* tablets e Celulares (col) 0px a 767px */
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .no-mobile {
     display: none;
   }
@@ -91,6 +91,7 @@
     margin-top: 300px !important;
     padding-top: 500px !important;
     padding-bottom: 50px;
+    gap: 10px;
   }
 
   .img-produto {
@@ -100,18 +101,23 @@
 
   .card-item {
     height: 110px;
-    width: 100%;
+    width: 240px;
+
     padding-left: 110px;
     justify-content: center;
     align-items: start;
   }
 
   .card-item .img-produto img {
-    width: 80px;
+    width: 60px;
+  }
+  .btn-menos {
+    margin-left: -1.5rem;
   }
 
   .title-produto {
     margin-top: 0px !important ;
+    margin-left: -1.5rem;
     height: 30px !important;
     width: 90%;
     text-align: left !important;
@@ -120,11 +126,12 @@
   .price-produto {
     margin-bottom: 0px !important;
     margin-top: 0px !important;
+    margin-left: -1.5rem;
     font-size: 22px !important;
   }
 
   .depoimentos {
-    height: 80vh;
+    height: 70vh;
   }
 
   .reserva {
@@ -201,4 +208,7 @@
     right: 25px !important;
     top: 40px !important;
   }
+}
+
+@media (max-width: 767px) {
 }

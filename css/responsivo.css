@@ -8,7 +8,7 @@
 
 /* tablets e Celulares (col) 0px a 767px */
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .no-mobile {
     display: none;
   }
